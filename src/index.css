@@ -6,8 +6,8 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    
     background-image: linear-gradient(orange, rgb(255, 145, 0));
     display: flex;
     justify-content: center;
@@ -109,4 +109,74 @@ body{
     font-size: 15px;
     font-weight: bold;
     padding: 5px 0;
+}
+
+.dados-tempo {
+    width: 70%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.dados-tempo-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.dados-tempo-container .linha1 {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 15px;
+    
+}
+
+.dados-tempo-container .linha2 {
+    font-size: 35px;
+    font-weight: bold;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px 0;
+    
+}
+
+.dados-tempo-container .linha2:nth-child(1){
+    width: 50px;
+    
+}
+
+.dados-tempo-container .linha3 {
+    width: 100%;
+    
+    padding: 20px 0 ;
+}
+
+.dados-tempo-container .linha4 {
+    padding: 15px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dados-tempo-container .linha2,
+.dados-tempo-container .linha3,
+.dados-tempo-container .linha4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
 }
